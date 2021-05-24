@@ -23,6 +23,13 @@
   .feed-form {
       margin: 0 auto;
   }
+  .carousel {
+      .button {
+          &__arrow {
+              display: none;
+          }
+      }
+  }
 }
 
 @media (max-width: 768px) {
@@ -110,3 +117,4 @@
         }
     }
 }
+
