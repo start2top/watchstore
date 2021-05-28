@@ -1,0 +1,33 @@
+.comments {
+    padding: 79px 0 79px 0;
+
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    &__item {
+        padding-top: 60px;
+        display: flex;
+        flex-direction: row;
+        &__photo {
+            padding-right: 61px;
+        }
+        &__descr {
+            .name {
+                font-weight: bold;
+                font-size: 18px;
+            }
+            .achivement {
+                font-weight: 500;
+                font-size: 14px;
+                color: #646464;
+            }
+            .text {
+                padding-top: 10px;
+                font-weight: 300;
+                font-size: 16px;
+                line-height: 24px;
+            }
+        }
+    }
+}
